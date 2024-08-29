@@ -1,0 +1,9 @@
+.env
+.env.backup
+docker-compose.override.yml
+/.idea
+/.vscode
+.history
+vendor
+mysql
+node_modules

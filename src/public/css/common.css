@@ -1,0 +1,23 @@
+section .job-section:hover {
+  background-color: #21478A;
+  cursor: pointer;
+  transition: background-color .5s;
+}
+
+section .job-section:hover:first-child {
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+section .job-section:hover:last-child {
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+section .job-section:hover .job-section-title {
+  color: white;
+}
+
+section .job-section:hover .job-section-jobs {
+  color: white;
+}
