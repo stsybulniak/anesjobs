@@ -16,8 +16,10 @@ section .job-section:hover:last-child {
 
 section .job-section:hover .job-section-title {
   color: white;
+  transition: color .5s;
 }
 
 section .job-section:hover .job-section-jobs {
   color: white;
+  transition: color .5s;
 }

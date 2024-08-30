@@ -17,7 +17,7 @@
           <div class="flex justify-end items-center grow gap-6 text-[#21478A] font-bold">
             <a href="#" class="hover:text-[#4474C8]">Search Jobs</a>
             <a href="#" class="hover:text-[#4474C8]">Post Jobs</a> 
-            <button class="hover:bg-[#4474C8] border-solid border border-[#4474C8] hover:text-white text-[#4474C8] font-bold py-4 px-8 text-base	rounded-full">Login/Sign Up</button>
+            <button class="hover:bg-[#4474C8] border-solid border border-[#4474C8] hover:text-white text-[#4474C8] font-bold py-4 px-8 text-base	rounded-full">Login</button>
           </div>
         </nav>
     </header>
