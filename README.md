@@ -97,3 +97,8 @@
   docker compose run --rm php /bin/sh
   chown -R laravel:laravel /var/www/html
   ```
+
+#### Run vite dev
+  ```
+  docker compose run --rm --service-ports npm run dev
+  ```

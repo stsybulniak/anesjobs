@@ -7,3 +7,4 @@ docker-compose.override.yml
 vendor
 mysql
 node_modules
+cmd.sh

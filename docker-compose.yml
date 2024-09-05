@@ -1,5 +1,4 @@
 services:
-
     nginx:
         build:
             context: .
@@ -11,7 +10,6 @@ services:
         ports:
             - 80:80
             - 443:443
-            # - '${VITE_PORT:-5173}:${VITE_PORT:-5173}'
         volumes:
             - ./src:/var/www/html
 
@@ -22,7 +20,6 @@ services:
         container_name: laravel_php
         ports:
             - "9000:9000"
-            # - "5173:5173"
         volumes:
             - ./src:/var/www/html
 
@@ -63,9 +60,9 @@ services:
         volumes:
             - ./src:/var/www/html
         working_dir: /var/www/html
-        # ports:
-        #     - '${VITE_PORT:-5173}:${VITE_PORT:-5173}'
-        # entrypoint: ['npm']
+        entrypoint: ['npm']
+        ports:
+            - '${VITE_PORT:-5173}:${VITE_PORT:-5173}'
 
 
 
