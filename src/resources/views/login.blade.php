@@ -16,7 +16,7 @@
             </div>
             <button class="anes-btn-primary w-full mb-6">Sign In</button>
             <div class="text-xs text-center text-textGrey mb-2">Dont't have an account? <a href="/sign-up">Sign Up</a></div>
-            <div class="text-xs text-center text-textGrey">Forgot password? <a href="/fogot-password">Reset</a></div>
+            <div class="text-xs text-center text-textGrey">Forgot password? <a href="/password-verify">Reset</a></div>
         </form>
     </section>
 @endsection

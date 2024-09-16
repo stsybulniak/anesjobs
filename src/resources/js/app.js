@@ -1,5 +1,9 @@
 import './bootstrap';
 import '../scss/app.scss'; 
+import {
+  Collapse,
+  initTWE,
+} from "tw-elements";
 
 const tham = document.querySelector(".tham");
 const menu = document.getElementById('menu')
@@ -11,3 +15,5 @@ function navToggle() {
 }
   
 tham.addEventListener('click', navToggle);
+
+initTWE({ Collapse });

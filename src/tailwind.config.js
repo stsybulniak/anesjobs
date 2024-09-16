@@ -4,6 +4,7 @@ module.exports = {
     "./resources/**/*.blade.php",
     "./resources/**/*.js",
     "./resources/**/*.vue",
+    "./node_modules/tw-elements/js/**/*.js",
   ],
   theme: {
     screens: {
@@ -30,9 +31,13 @@ module.exports = {
         primary: "#21478A",
         primaryLight: "#4474C8",
         borderGrey: "#E5E9EB",
-        grey: "#334155"
+        grey: "#334155",
+        bgColor: "#F9F9FB",
+        greyText: "#5E5D65",
+        borderPurp: "#CBD2F6",
+        colorPurple: "#9FADEF"
       }
     },
   },
-  plugins: [require('tailwind-hamburgers'), require("@tailwindcss/forms")],
+  plugins: [require('tailwind-hamburgers'), require("@tailwindcss/forms"), require("tw-elements/plugin.cjs")],
 }

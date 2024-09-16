@@ -10,8 +10,8 @@
 </head>
 
 <body style="font-family: Inter;"
-    class="text-base text-black bg-white antialiased font-feature-default p-12 flex flex-col h-full">
-    <header>
+    class="text-base text-black bg-white antialiased font-feature-default flex flex-col h-full">
+    <header class="p-12">
         <nav class="flex items-center relative">
             <div id="menu" class="absolute hidden p-6 rounded-lg bg-primary left-6 right-6 top-[4rem] z-100">
                 <div
@@ -22,11 +22,11 @@
                     <a href="/sign-up" class="w-full py-3 text-center rounded-full bg-cyan menu-item">Sign Up</a>
                 </div>
             </div>
-            <div><img title="Logo" src="/images/logo.svg" /></div>
+            <div><a href="/"><img title="Logo" src="/images/logo.svg" /></a></div>
             <div class="hidden lg:flex justify-end items-center grow gap-6 text-primary font-bold">
                 <a href="#" class="hover:text-primaryLight">Search Jobs</a>
                 <a href="#" class="hover:text-primaryLight">Post Jobs</a>
-                <button class="anes-btn">Login</button>
+                <a class="appearance-none anes-btn" href="/login">Login</a>
             </div>
             <div class="tham tham-e-squeeze tham-w-9 ml-auto lg:hidden">
                 <div class="tham-box">
@@ -38,4 +38,4 @@
             </div>
         </nav>
     </header>
-    <main class="my-10 h-full">
+    <main class="p-12 bg-bgColor grow">
